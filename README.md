@@ -1,0 +1,2 @@
+# SextoSemestrePrimerParcial
+Apuntes y tareas
