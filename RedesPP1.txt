@@ -1,0 +1,123 @@
+RIP usa2 tipos  de mensaje
+-Mensaje de solicitud.- se solicita a todos los vecinos que envien la tabla de enrutamiento
+-Mensaje de respuesta.- mensaje enviado al solicitante
+distancia  administrativa es 120
+Router(config)#router rip  
+Router(config-router)#ne
+Router(config-router)#network  192.168.1.0 //primeramente compartir las redes que estan directamnete  conectadas, todas la que esten conectadas al router
+en practica
+Router(config)#router rip
+Router(config-router)#ne
+Router(config-router)#network 10.120.120.0
+Router(config-router)#network 192.168.120.0
+Router(config-router)#network 200.80.120.96
+Router(config-router)#
+actualizacion de actividad
+Router#debug ip rip //habilitar
+Router#undebug ip rip // desabilitar
+configurar
+Router(config)#ro rip
+Router(config-router)#do sh ip ro co
+ C   80.120.0.0/16  is directly connected, FastEthernet0/0
+ C   170.170.120.0/30  is directly connected, Serial2/0
+Router(config-router)#ne 80.120.0.0
+Router(config-router)#ne 170.170.120.0
+Router(config-router)#
+//se puede resumir el proceso poniendo la red con clase, 
+Router#sh ip ro rip //para mostrar las acrualizaciones 
+// para poner una interzas pasiva por la cual no se envien ni reciban las actualizaciones, cerrar unna por una
+Router(config)#router rip
+Router(config-router)#passive-interface f
+Router(config-router)#passive-interface fastEthernet 0/0
+// para poner una interzas pasiva por la cual no se envien ni reciban las actualizaciones, cerrar todas
+Router(config-router)#passive-interface default 
+//
+Router(config)#debug ip route rip
+// para ver el problema, contadores, por cuales interfaces se envia actualizaciones, ip de redes remotas, en routing informatioc sources al contador va es ascenso
+en sending update es en cuanto tiempo enviare una aactualizacion 
+Router#show IP protocols    // muestra el protocolo, ultima actualizacion y descripcion
+//  cuando la interfaz de conexion de un routter rip v1 espera 7 minutos para descartar la entrada, 3 minutos para vaisarnos de un problema con Router#sh ip ro rip
+// cuando una interfaz es pasiva no libera una actualizacion disparada
+comparte automatica de red con clase
+
+r1# show ip route 21.20.20.0 // para ver la distancia administrativa y metrica
+router borde de clase.- rip resume las redes classful, es aquele que tiene mas de una clase conectada, rip v1 solo publica las con clase
+-no soporta la continuidad de redes
+-tiene mas de un protocolo y conecta a dos ramas con diferentes protocolos
+
+rutas por defecto en dinamico
+en el router borde de clase y en el otro crear la ruta por defecto, 
+en el router que tiene el protocolo 
+Router(config)#router rip
+Router(config-router)#de
+Router(config-router)#default-information o
+Router(config-router)#default-information originate 
+Router(config-router)#
+//para establecer rutas estaticas cuando ya se haya usado las por defecto y enseñarle las redes que no estan con rip
+Router(config)#router rip
+Router(config-router)#r
+Router(config-router)#redistribute s
+Router(config-router)#redistribute static 
+
+
+07/08/2019
+RIP VERSION 2
+la no sumarizacion en los routers borde de clase envia las mascaras, pero esto solo con el comando no auto summary
+//para cambiar RIP a version 2
+//primero habilitar rip y luego recien pasar a la version 2
+Router(config)#ro rip
+Router(config-router)#ve
+Router(config-router)#version 2
+//para lo del sumario, hacer esto en cada router
+Router(config-router)#no auto-summary 
+//para ver lo de rip
+Router(config)#do show ip router rip
+//para volver a la version RIP, de manera nativa
+Router(config-router)#no version 2
+Router(config-router)#do sh ip pro
+// tambien
+Router(config-router)#version 1 
+
+DIFERENCIA ENTRE RIP 1 Y 2
+-RIP 1 no da soporte a la sumarizacion
+RUTAS DE DESCARTE O INTERFAZ NULA
+//como una papelera de reciclaje o un filtro de envio de paquetes
+Router(config)#ip ro 147.120.200.0 255.255.255.0 null 0
+
+PROTOCOLO EIGRP
+224.0.0.10	por donde intercambia informacion
+envia los paquetes
+-paquete de saludo: detectar vecino y formar adyaciencias, cada 5 seg (y espera la respuesta hasta 15 seg) y unicast cada 60 seg (espera hasta 180 seg)
+-paquete de actualizacion: pueden ser parciales (informacion de la ruta que se ha modificado) y limitadas (para purgar)
+-paquetes de reconocimiento
+-paquetes de consulta y de respuesta
+ALGORITMO DE ACTUALIZACION DIFUSA
+distancia administrativa	
+	rutas sumarizadas=5
+	rutas internas
+	rutas importadas
+Resume las rutas 
+Numero de sistema autonomo: router(config)# router eigrp 1   //el mismo numero de proceso (para una instancia de eigrp) para todos los routers con rip
+compartir redes: ne 174.120.120 
+wildcard ne 
+
+09/08/2019
+para ver el enrutamiento para eigrp
+	Router#show ip rou eigrp
+para ver la direccion de los vecinos
+	Router#sh ip eigrp neighbors 
+para ver si EIGRP esta  habilitado
+	Router#sh ip protocols
+VELOCIDADES DE LAS CONEXIONES	
+FAST 100.100 kilobits/seg
+SERIAL 	1544    RETRASO 20.000 micro segs
+existe mas retraso mientras mas lenta sea el tipo de conexion (fastethernnet y gigabitethernet)
+de todo el camino el ancho  de banda trabaja a la velocidad del mas lento
+para mostrar los posibles caminos que un router tomaria para llegar a las demas redes
+	Router(config)#do sh ip ro ei
+para cambiar el ancho de banda en kilobits/seg, se debe cambiar el ancho de banda a los dos routers
+Router(config)#in s0/3/0
+Router(config-if)#b
+Router(config-if)#bandwidth 256 
+para la tarea imprimir el sh ip ro eigrp
+

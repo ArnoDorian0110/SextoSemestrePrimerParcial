@@ -1,0 +1,39 @@
+CentOS 
+Ultima version, instalador DVD hasta el proximo miercoles 31/07/19
+Maquina Virtual  ultima version en DVD
+TAREA MIERCOLES 31 07 2019 comentar la Guerra de los navegadores
+BIOS sistea basico de entradas y salidas
+ROM memoria de solo lectura, estructura standar  sin importar el tipo de equipo que sea
+CPM la norma que establecia el funcionamiento de los proccesadores de 8 bits
+
+09/08/2019
+DEFINICION DE SISTEMA OPERATIVO
+es el programa principal que gestiona el hardware y el software
+ARTICULO  DE LA SEMANA: SISTEMAS OPERATIVOS DE LOS TELEVISORES
+ESQUEMA DE VON NEUMAN
+2 lista de las comuincades y el limk
+3 listar enlaces con bibliografia, libros, revistas, articulos con link
+4 indicar los requisitos del S.O.
+5 certificaciones existentes acerca del como manejar el SO, como administrador o soporte tecnico
+subir esto hasta la media noche del martes en el espacio del blog 
+labores00
+-gerente: requerimiento de software (al departamento de soporte tecnico)
+-secretario: requerimiento de software  
+-direccion de marketing: requerimiento de software
+-direccion de desarrollo: todos los programas que nesecite
+el miercoles en formato impreso o digital
+
+FORMATO
+fecha
+para
+referencia
+cuerpo
+listado de lo que nesecita
+
+
+
+
+
+ 
+
+

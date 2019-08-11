@@ -1,0 +1,96 @@
+GIT
+//para ingresar a una carpeta
+cd nombre_carpeta/
+//para volver una carpeta atras
+cd ..
+//para mostrar la ubicacion donde estamos actualmente
+pwd
+//para mostrar los archivos de la carpeta
+ls
+//para crear una nueva carpeta
+mldir nueva_carpeta
+//para crear cualquier tipo de archivo
+touch vacio.txt
+//para ver el contenido de un archivo
+cat vacio.txt
+//para ver el historial de los comandos escritos
+history
+//dentro de los nuemro que nos da el historial para repetir una accion por ejemplo: 73  ls
+!73
+//para borrar archivos 
+rm vacio.txt
+//una version MASTER iria como versiones secuenciales y oficiales conectadas con COMMIT
+//una version EXPERIMENTAL va como una ramificaion de una version X siendo como X.1 X.2 y así
+//MERGE es conectar todas las veriones finale scon tal de crear una version final
+PARA COMENZAR A TRABAJR CON LOS REPOSITORIOS
+//para mostrar a git que esa sera la carpeta donde estan los archivos 
+git init
+//para abrir visual studio code 
+code
+//para mostrar el estado de los archivos que estan dentro de un carpeta con git
+git status
+//para mostrar solo los archivos con modificacion
+git status -s
+//para añadir los archivos que falten al git status
+git add historia.txt
+//para desañadir el archivo al git status
+git rm historia.txt
+//para enviar y guardar esa version con ese cambio 
+git commit
+//para enviar y guardar esa version con ese cambio y un archivo
+git commit -m "Esta es la primera version del archivo"
+//para mostrar todas las configuraciones que tiene git 
+git config
+//para mostrar las configuraciones, nombre, email
+git config --list 
+//para mostrar donde estan las configuraciones guardadas
+git config --list --show-origin
+//para cambiar la configuracion del usuario de git
+git config --global user.name "ArnoDorian0110"
+//para cambiar la configuracion del correo de git
+git config --global user.email "francdanes0110@gmail.com"
+//para mostrar solo el nombre de usuario y correo
+git config --global -l
+//al momento de hacer al guna modificacion y desear guardarla recordar
+git add .    //con  git add .  // se añaden todos los archivos o tambien puede ser uno en especifico
+//para ver el historial de modificaciones que tiene un archivo, el primero es la ultima modificaion del archivo
+git log historia.txt
+COMANDOS MAS AVANZADOS 
+//para ver la historia de un archivo
+git show historia.txt
+// la forma de salir cuando git se pone raro es ESC + SHIFT + Z > Z
+//cuando solo hacemos < git commit  > nos muestra un editor de texto en el cual podremos ingresar algun comentario como con <git commit -m "comentario">  en caso de no poder escribir ESC + I
+//para ver todo el historia del commit
+git log historia.txt
+//para ver las difernecias entre las versiones de git
+git diff aea936042ece56db19968c68efec81c3cb7c9c93  26b0b8a4b88fbdd2dbbce10c61571d67614a93ff     //ambos id son obtenidos de los campos commit
+//para cambiar el orden de la cabecera por ejmplo la 2da como 4ta
+git reset cd9393a665a084f9d061e0166e1bc9edc63aea39 --soft
+//para borrar todos los cambios desde esa version TENER MUCHO CUIDADO CON AMBAS --soft  y 	--hard
+git reset cd9393a665a084f9d061e0166e1bc9edc63aea39 --hard 
+//para mostrar los cambios en general por archivos en general
+git log --stat
+//para ver  como era una version antes
+git checkout cd9393a665a084f9d061e0166e1bc9edc63aea39 historia.txt
+//para volver a la version master o ultima version
+git checkout master historia.txt
+//para hacer el <git add>  y el <git commit> en uno solo para archivos que hayan tenido al menos un <git add>
+git commit -a
+//para crear una cabeceza
+git branch cabecera
+//para pasar del master a una cabecera 
+git checkout cabecera
+//para pasar de una cabecera a un master 
+git checkout master
+//para agregar como un repositorio remoto 
+git remote add origin https://github.com/ArnoDorian0110/hiperblog.git
+//para mostrar el nombre de nuestro repositorio 
+git remote
+//para mostrar la url de nuestro repositorio
+git remote -v 
+//para el agregado inicial
+git push origin master
+
+
+
+

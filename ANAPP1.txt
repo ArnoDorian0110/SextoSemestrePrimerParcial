@@ -1,0 +1,107 @@
+ACTORES DENTRO DE LOS SISTEMAS
+USUARIO quien usara el sistema, se oponen al sistema, EN UNO DE ESTOS VA A CAER EL CLIENTE
+-operacioneales
+-supervisores 
+-nivel ejecutivo
+por nivel de experiencia
+-amateur
+-novato presuntuoso
+-experto
+ADMINISTRACION ver que tan util sera el sistema economicamente 
+-administradores usuarios -
+-administradores informatica - 
+-administradores general -
+AUDITORES control de calidad
+ANALISTAS DE SISTEMAS arqueologo yescribano, innovador, mediador
+DISENADOR DEL SISTEMA transformar las peticiones en tecnologia
+PROGRAMADORES es quien desarrolla el proyecto
+EL PERSONAL DE OPERACIONES, responsable del centro de computo, red de comunicaiones, la seguridad dl hardware, departamento de sistemas
+o soporte  tecnico
+
+QUE ES LA ORIENTACCION A OBJETOS?
+nace en programacion 
+se orgraniza el software como una coleccion de objetos discretos que encapsulan
+-estructuras de datos y comportamiento
+el concepto se extiende a los metodos de analisis  y diseno, se necesita escribir y documentar
+las clases (generalizacion de un conjunto de objetos) y objetos estan en todas partes
+AVERIGUAR COMO ES LA PSICOLOGIA DEL HACKER
+AVERIGUAR QUIENES PARTICIPAN EN LA CONSTRUCCION Y QUE FACTORES INSIDEN EN LA CONSTRUCCION DE UNA CASA
+
+30/07/2019
+Clase
+-atributos 
+-operaciones
+-comportamiento
+Objetos
+Encapsulamiento: dar diferentes niveles de acceso a una computadora, ocultacion de detalles, concepto de la inferfaz
+Interfaz: comunica al usuario con la maquina, implica cierto tipo de comunicacion, en caso del ser humano seria el cuerpo mismo
+Herencia: pese a generalizar,especializacion, los objetos heredan las cracteristicas de la clase, pueden heredar de otras clases (extension, restriccion, modificacion), utilidad (abastraccion)
+Polimorfismos: permite utilizar los mismos terminos, al momento de definir los nombres a los metodos, por ejemplo correr(puede ser para una  persona, auto y otros)
+Asociacion: modela la relacion entre objetos, asociacion-Clase/Enlace-Objeto,tipos basicos (asociaccion, herencia, agragacion/composicion), en bases de datos se denomina cardinalidad
+DESARROLLO DE SOFTWARE
+Proceso bien estructurado de acuerdo a la participacion del equipo de desarrollo 
+¿Quienes participan en el proceso?
+Clasificaion en base a las responsabilidades que desempeña cada miembro
+TAREA: en el cuaderno averiguar que es estrategia
+Administrador de proyecto (lider del proyecto): delimitar el alcance del sistema, coordinar el trabajo con los distintos miembros del equipo, planifica y determina tiempos, costos y demas, velar por el cumplimineto de los objetivos, interactuar con el cliente
+Analista (segundo al mando del lider): identificcar y entrevistar al cliente y ususarios, desambiguar los requisitos, apoya al tester, vela por el diseño, generar el documento de requisitos de software y cumppla con los plazos pactados 
+Diseñador (una funcion similar a la vista imparcial del psicologo, para ver que le parece la cliente): encargado de hacer el diseño arquitectonico y detallado del sisetma, basandose en los requisitos, el diseño debe ser implementable, generar prototipos rapidos del sistema con lo desarrolladores, validar prototipos con clientes y sus uarios, velar porque el producto final se ajuste 
+Implementador (programador): implementar los prototipos rapidos para chequear lo requisitos, especifica los diseños del sistema especificador por los diseñadores, realizar la primera bateria de pruebas, 
+Tester (probador): pruebas cuando ya esta terminado el sistema, coordina las revisiones de los productos, generar informer post-revision, realizar el seguimiento de las falencias identificadas, velar por la adhesion al estandar adoptado, velar por la completitud y exactitud de los documentos, velar por la calidad del producto
+DESAFIO 1: trabajar en equipo para resolver el problema asignado
+DESAFIO 2: que el cliente quede feliz, o sea el docente
+PROCESO DE SOFTWARE
+conjunto de actividades requeridas para desarrollar un sistema de softare (especificaion, diseño, validacion, evolucion)
+las actividades variasn dependiendo de la organizacion
+recomendaciones para desarrollar una aplicacion 
+documentar de principio a final
+hay que adaptarlas para cada caso 
+-como descubrir que tiene que hacer la aplicaion
+-como decidir como estara estructurada la aplicacion
+-como asegurarse de que la aplicacion hace lo que se debe hacercomo ocuparse que se pueda ampliar/migrar/adaptar. Responsive aplications
+hay que adaptarse  para cada caso
+conviene que las configuraciones vengan por escrito
+TAREA: de manera individual pensar en un posible proyecto, tener minimamente 5 tareas importantes o especificas, 2 planas, 1 explicar que queremos que el sistema haga, 2 especificar las tareas del sistema
+08/08/2019
+ACTORES DE LOS SISTEMAS POR SUS RESPONSABILIDADES (quienes participan en hacer el sistema)
+	- Administrador
+	- Analista
+	- Diseñador
+	- Implementador
+	- Tester
+PROCESO DEL SOFTWARE
+	-	Para desarrollar una apliacion
+		* descubrir que tiene que hacer la apliacion
+		* como decidir como estara estructurada la aplicacion
+		* como asegurarse de que la aplicacion funciona y hace lo que tenia que hacer
+		* como asegurarse de que se pueda : ampliar/migrar/adaptar
+MODELOS DE PROCESO CONCRETOS
+	proceso unificado de rational (pesado)
+	extreme programing (agil)
+ATRIBUTOS DE UN BUEN SOFTWARE
+	- funcionalidad y desempeño requerido por el usuario
+	- mantenibilidad: que sirva por un buen periodo de tiempos, evolucionar para cubrir las nesecidades
+	- confiabilidad: producir los resultados deseados
+	- usabilidad: de facil uso 
+confiabilidad
+
+NOTACION 
+Libro UML en 24 horas
+libro UML de los 3 amigos butch 
+MODELADO DE SOFTWARE ORIENTADO A OBJETOS
+CLAVES  DEL DESARROLLO EN SI
+	-NOTACION
+	-HERRAMIENTAS (case)
+	-PROCESO
+ABSTRACCION - MODELADO VISUAL (VM)
+el modelado captura las partes esenciales del sistema
+NOTACION VISUAL
+el modelar el sistema independientemente del lenguaje de implementacion
+manejar la complejidad
+promover la reutilizacion
+
+	
+
+	
+	
+	

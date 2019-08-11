@@ -1,0 +1,71 @@
+MODELACION Y SIMULACION
+puesta en practica de IO
+cadena de transporte.- conjunto de bandas de transporte o ciclos de produccion
+Jimmy Sanjines tesis acerca del Calentamiento global
+NORMAS ANSI 
+Arbol de descripcion de modelos
+-modelos deterministicos
+-modelos estocaticos
+TAREA del codigo verificador A20572-9  averiguar como se obtiene el codigo verificador (9) 
+Estandar- como ser el tipo de conector, la mejor forma conocida de realizar un trabajo
+Axioma- algo que no necesita ser demostrado, algo que esta ahí
+TAREA resolver el ejercicio de las diapositivas 
+
+
+29/07/2019
+ISO 27000
+ORACLE data base
+JOOMLA
+WORDPRES 
+Campo laboral de un profesional  de sistemas
+
+
+08/08/2019
+Para el transporte
+	accesibilidad
+	congestion y esternalidades 
+	uso de energia
+	financiamiento
+	uso de nuevas tecnologia e innovacion
+	construccion y mantenimiento de infraestructura
+	seguridad y confiabilidad
+	institucionalidad (sindicalizacion)
+	sustentabilidad (mantenga en el tiempo)
+CIRCULO VICIOSO DEL TRANPORTE PUBLICO 
+COMO ESTUDIAR LOS MEDIOS DE TRANSPORTE
+	- Operacional (decisiones cada cierto plazo, dia a dia)
+	- Tactico (a mediano plazo, situaciones ya previstas  como ser entradas folkloricas)
+	- Estrategico (acciones y politicas a largo plazo, compra de equipo, analisis y planificacion de las nuevas rutas)
+TIEMPOS
+	-Corto (1 año)
+	-Mediano (1 a 2 años)
+	-Largo (2 o más años)
+DESICION ESTRATEGICA EN TRANSPORTE PUBLICO
+	-cumplir con la meta global
+	-lograr cierta participacion modal 
+	-reducir los tiempos de viaje promedio para los usuarios
+El transporte genera movimiento economico
+DISEÑO GENERAL DEL SISTEMA
+	- gestion de la flota
+	- gestion de la infraestructura
+	- herramientas de control
+	- asignacion de conductores para los vehiculos
+FACTORES A ANALIZAR (MACROVARIABLES FUNDAMENTALES ST)
+	- sistema de transporte: administrar los caminos y darles mantenimiento. infraestructura, vehiculos, operacion, gobernanza/institucionalidad
+	- sistema de actividades: poblacion, ingreso, empleo, produccion
+	- sistema de flujos: estructura de flujos. origenes, destinos, rutas, volumenes, composicion.  
+DIJSTRA para identificar la ruta critica 
+HORARIOS DE TRANSPORTE
+	- Hora pico mañana
+	- Hora pico tarde
+	- Hora valle (entrada y salida rapida)
+CARACTERISITCA SOCIO ECONOMICAS
+	- ingreso bajo
+	- ingreso medio
+	- ingreso alto
+MODELOS DE DISTRIBUCION DE VIAJES
+	- viajes atraidos
+	- viajes generados
+CONCEPTOS DE DISTRIBUCION
+
+

@@ -1,0 +1,25 @@
+TAREAS
+08/08/2019
+MODELACION:
+	-definicion de eficiencia, eficacia
+	- en .net hacer DIJSTRA 
+	- averiguar horarios pico del PUMA KATARI
+ANALISIS
+	- exposicion martes de la subsiguiente semana METODOLOGIA XP (martes 20)
+		* historia / introduccion: lo mas relevante
+		* proceso de desarrollo: como trabaja la metodologia, es que modelos de desarrollo se basa, con graficas
+		* fases / etapas: que se hace en cada una de las fases o etapas
+		* notacion: tiene una forma de documentacion especifica? esta relaionado con las fases
+		* ejemplo: buscar un sistema ya hecho en internet, mostrar el sistema en las diferentes fases que ha tenido dentro de la metodologia
+		NOTA: de la historia a la notacion en documento, exposicion de 30 a 45 min y hacer una evaluacion para el curso (preguntas, sopa de letras, seleccion multiple)
+	- modelacion: del proyecto (martes 13)  
+	- documentacion
+sacar informacion del proceso y de como sucede este proceso
+definir las entradas procesos y salidas, que se obtiene de acuerdo de acuerdoa a cada uno y que es lo que se espera como resultado
+
+09/08/2019
+SISTEMAS OPERATIVOS
+	- hacer los documentos de los requerimientos 
+	- no comentar los articulos de mainframe (leer)
+	- documento de laboratorio subirlo hasta el viernes
+	- comentar el articulo de la semana
