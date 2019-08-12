@@ -90,6 +90,10 @@ git remote
 git remote -v 
 //para el agregado inicial
 git push origin master
+//para hacer un merge de la rama cabecera hacia la rama master, pero se debe de estar en master
+git merge cabecera
+//para poder corregir el error con las letras de amarillo
+git pull origin master --allow-unrelated-histories
 
 
 
