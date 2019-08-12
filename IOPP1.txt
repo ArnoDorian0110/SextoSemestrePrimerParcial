@@ -1,0 +1,10 @@
+12/08/2019
+FENOMENOS ESTOCASTICOS
+donde nacen (cuando se lo requiera)y mueren (cuando finaliza el servicio)
+variable aleatoria (la cual nace de experimentos no deterministico) es el vector de probabilidades que dependen del tiempo, cuando es:
+	- discreto: Cadenas de Markov
+	- continuo: fenomenos de espera, teoria de colas
+En un supermercado el tiempo de espera y atencion a cada cliente es diferente, esto es un ejemplo de la distribucion exponencial
+
+
+	
