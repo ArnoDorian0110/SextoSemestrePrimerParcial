@@ -120,4 +120,4 @@ Router(config)#in s0/3/0
 Router(config-if)#b
 Router(config-if)#bandwidth 256 
 para la tarea imprimir el sh ip ro eigrp
-
+cambiarle el nombre a los routers

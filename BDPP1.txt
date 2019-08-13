@@ -37,5 +37,25 @@ RESPONSABILIDAD DEL DBA
 //CURSO DE MARKETING DIGITAL
 AUTORIZACIONES nivel de usuario
 
-    
-     
+13/08/2019
+/* MOSTRAR EL PORCENTAJE DE VIVENDAS POR PROVINCIA EN EL DEPARTAMENTO DE LA PAZ */
+SELECT
+	provincia.nombre AS 'Provincia',
+    departamento.nombre as 'Departamento',
+    provincia.vivienda as 'Viviendas Provincia',
+    departamento.vivienda as 'Vivienda Departamento',
+    ((provincia.vivienda/(SELECT SUM(provincia.vivienda)
+                            FROM provincia JOIN departamento
+                            ON provincia.departamento = departamento.id_departamento
+                            WHERE departamento.nombre = 'LA PAZ'))*100) AS '% de Viviendas'
+     FROM
+     provincia JOIN departamento 
+     ON
+     provincia.departamento = departamento.id_departamento
+     WHERE
+     departamento.nombre = 'LA PAZ';
+                            
+	
+
+
+ 

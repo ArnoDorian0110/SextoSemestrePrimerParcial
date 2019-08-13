@@ -35,3 +35,4 @@ ANALISIS
 	-investigar:
 		en que version de uml estamos ahora (desde que  año)
 	- recopilar mas informacion tienda online de videojegos con sucursales fisicas (jueves 15)
+	
