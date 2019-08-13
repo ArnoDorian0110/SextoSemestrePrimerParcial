@@ -100,7 +100,59 @@ el modelar el sistema independientemente del lenguaje de implementacion
 manejar la complejidad
 promover la reutilizacion
 
-	
+13/08/2019
+CLAVES PARA EL DESARROLLO
+	- revisar la notacion con la que fue hecha 
+	- herramientas con la que fue hecha
+UML (lenguaje de modelado unificado)
+	- lenguaje de modelado orientado a objetos
+	- documetado por la OMG unified modeling languaje specification
+	- UML combina notaciones provenientes desde: 
+		modelado orientado a objetos
+		modelado de datos
+		modelado de componentes
+		modelado de flujos de trabajo (Workflows)
+	- parte  de diversos metodos y tecnicas, autores y empresas reconocen a estas notaciones como una notacion estandar
+	- pugna distintos enfoques (y correspondientes gurús)
+	- historia
+		nace con la metodologia OMT
+	- aspectos novedosos
+		mecanismos de estension en UML: Stereotypes, Constrains (restricciones), tagged values 	
+	- inconvenientes
+		uml no es metodologia, solo define notacion
+		falta integracion conrespecto de otras tecnicas como patrones de diseño, interfaces de usuarios y documentacion
+		monopolio de conceptos, tecnicas y metodos en torno a UML
+	- perspectivas de uml
+	- modelos y diagramas
+		modelo: captura la vista de un sistema del mundo real. Es una abstraccion de dicho sistema considerando un cierto proposito, conjunto de heeramientas para mostrar como seria en el mundo real, mostrando un cierto prototipo
+		diagrama: es una representacion grafica de una coleccion de elementos de modelado, a menudo dibujada como un grafo con vertices conectador por arcos
+		codigo fuente  del sistema es el modelo mas detallado del sistema. Sin embargo, se requieren otros modelos
+		cada modelo es completo desde su punto de vista del sistema, sin embargo existen relaciones de trazabilidad entre los diferentes modelos
+	- clasificacion de los diagramas
+	- organizacion de los modelos
+		para Kruchten (1995) se tenia que generar las vistas del sistema, existen vistas tangibles e intangible, recomienda ver al sistema como si fuera algo tangible (por ejemplo: un cubo)
+			vista logica
+			vista de los casos de uso (es la principal, todos giran en base a esta): refleja los requerimientos
+			vista de procesos
+			vista de realizacion
+			vista de distribucion
+				vista casos de usos: casos de uso
+				vista de diseño: los diagramas de clases, objetos, colaboracion
+				vista de procesos: los diagramas de vista de diseño
+				vista de implementacion: diagramas de componentes
+				vista  de despliegue: diagramas de despliegue
+	- paquete de UML: dentro de un paquete puede estar todo lo construido de la vista de mi sistema, corresponde a una vista del cubo (sistema)
+		el operador permite designar una clase definida
+		dentro de los paquetes pueden llamarse elementos externos e incluso tener generalizacion
+DIAGRAMAS DE CASOS DE USO	
+captura la informacion de como trabaja el sistema
+trabaja con Actor y caso de uso (ovalo)  https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Data-flow-diagram-notation-es.svg/250px-Data-flow-diagram-notation-es.svg.png
+tiene enfasis en los requerimientos del usuario, tecnica de captura de requisitos
+clasificado 
+	- caso de uso de alto nivel (diagrama de nivel 0): 
+		muestra al sistema como un todo
+		utiliza: casos de uso (ovalo), actores y frontera (delimitante que lleva en la parte superioir el nombre del sistema), realiza los submodulos del sistema
+		tipo: 1. primario,secundario u opcional 2. esencial o real
 
 	
 	
