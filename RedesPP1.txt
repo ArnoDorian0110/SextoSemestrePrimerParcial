@@ -1,4 +1,4 @@
-RIP usa2 tipos  de mensaje
+RIP usa 2 tipos  de mensaje
 -Mensaje de solicitud.- se solicita a todos los vecinos que envien la tabla de enrutamiento
 -Mensaje de respuesta.- mensaje enviado al solicitante
 distancia  administrativa es 120
@@ -117,7 +117,22 @@ para mostrar los posibles caminos que un router tomaria para llegar a las demas 
 	Router(config)#do sh ip ro ei
 para cambiar el ancho de banda en kilobits/seg, se debe cambiar el ancho de banda a los dos routers
 Router(config)#in s0/3/0
-Router(config-if)#b
 Router(config-if)#bandwidth 256 
 para la tarea imprimir el sh ip ro eigrp
 cambiarle el nombre a los routers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

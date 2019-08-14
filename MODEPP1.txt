@@ -75,3 +75,4 @@ MODELO GRAVITACIONAL
 las distancias seran las zonas 
 INTRODUCCION A LOS MODELOS DE DEMANDA
 relacion lineal y regresion lineal, estados macro, meso y micro
+	
