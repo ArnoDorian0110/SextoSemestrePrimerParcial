@@ -39,3 +39,23 @@ ANALISIS
 14/08/2019
 SISTEMAS OPERATIVOS
 	- laboratorio 2= hacer el tutorial de como se configuro la maquina virtual con imagenes y explicacion
+	
+15/08/2019
+MODELACION
+	- accidentes de vehiculos segun el color, en internet, que colores son los que mas se producen
+	- averiguar que es el modelo probit multinomial
+	- averiguar que es el modelo gumbet, logit multinomial
+	en grupos de 3, irse a parar a las paradas del teleferico y ver diferentes variables
+		sexo
+		edad
+		nacionalidad		
+		- estadisticas del teleferico morado (faro murillo) en  horas pico 
+		- presentar cuadros 
+ANALISIS
+	averiguar
+	- cual es la tienda "competencia"? (hacer trabajo de espionaje corporativo, recolectar el como registran y como hacen las cosas)
+	- que articulos vendera mi tienda?
+	- cuales son los actores dentro de la tienda (dueño, vendedor, cajero, etc.)
+	- procesos que tendra la tienda compra - venta (reservadas, pedidos registrar compras)
+	- subastas?? (como seran?) - a traves de cual medio? (foros - chat)
+		ofertas 

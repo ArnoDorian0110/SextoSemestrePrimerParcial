@@ -75,4 +75,17 @@ MODELO GRAVITACIONAL
 las distancias seran las zonas 
 INTRODUCCION A LOS MODELOS DE DEMANDA
 relacion lineal y regresion lineal, estados macro, meso y micro
-	
+
+15/08/2019 
+
+TEORIA DE UTILIDAD ALEATORIA
+	personas elijen entre alternativas discretas (como ser el destino de viaje, ¿Donde puedo ir? Centro  COmercial)
+	// el cuento de la vaca para determinar nuevas opciones y hacer crecer nuevos campos
+	supuestos de modelacion
+		- individuos son racionales y poseen informacion perfecta (informacion ya almacenada, y se ejecuta de manera inconciente)
+		- individuos que  poseen un conjunto de alternativas disponibles
+		- cada alternativa tiene asociada una cierta utilidad
+		utilidad =individuos 
+		antes de tomar una desicion se toma en cuenta difrentes factores (en un auto: precio, color, capacidad, comodidad, eficiencia)
+		- es un enfoce desgregado de eleeccionde alternativas de transporte, modo o ruta
+		funcion lineal: 	
