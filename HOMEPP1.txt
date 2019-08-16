@@ -10,7 +10,7 @@ ANALISIS
 		* historia / introduccion: lo mas relevante
 		* proceso de desarrollo: como trabaja la metodologia, es que modelos de desarrollo se basa, con graficas
 		* fases / etapas: que se hace en cada una de las fases o etapas
-		* notacion: tiene una forma de documentacion especifica? esta relaionado con las fases
+		* notacion: tiene una forma de documentacion especifica? esta relaionado con las fases (el como se hizo las fases en el ejemplo)
 		* ejemplo: buscar un sistema ya hecho en internet, mostrar el sistema en las diferentes fases que ha tenido dentro de la metodologia
 		NOTA: de la historia a la notacion en documento, exposicion de 30 a 45 min y hacer una evaluacion para el curso (preguntas, sopa de letras, seleccion multiple)
 	- modelacion: del proyecto (martes 13)  
@@ -60,3 +60,7 @@ ANALISIS
 	- subastas?? (como seran?) - a traves de cual medio? (foros - chat)
 		ofertas 
 	ARCHIVADOR VACIO T CARTA , CON CARATULA Y FORRADO PARA EL MARTES 20
+
+16/08/2019
+SISTEMAS OPERATIVOS
+	- hacer las primeras dos preguntas del laboratorio 2

@@ -37,6 +37,35 @@ Modelo de Von Neuman
 Diferencias entre las arquitecturas de 32 y 64 bit's
 Revisar el foro seccion de 32 y 64 bits
 
+16/08/2019
+SISTEMAS OPERATIVOS DE MAINFRAME
+	- se utilizan en grandes centros de calculo corporativo
+	- servidores web avanzados, servidores de sitios de comercio electronico a gran escala
+	- destinados al procesamiento de varioa trabajos a la vez
+SISTEMAS OPERATIVOS DE SERVIDOR
+	- dan servicio a multiples usuarios a traves de una red, permitiendo compartir recursos de hardware y  software
+	- prestan servicios de: impresion, archivos, web
+	- ejemplos: unixm linux, windows
+SISTEMAS OPERATIVOS MULTIPROCESADOR (tiene varios procesadores o nucleos)
+	- se compone de varios cpu es un sistema  para obtener potencia computacionas
+	- sistemas son paralelos
+	- ejemplos: variaciones desistemas operativos multiprocesador	
+SISTEMAS OPERATIVOS DE COMPUTADORES PERSONALES
+	- es darle una buena interfaz al usuarios
+	- se utiliza en procesamiento de textos, hojas de calculo y accesoa a internet
+SISTEMAS OPERATIVOS DE TIEMPO REAL (maquinas industriales)
+	- el tiempo es el principal parametro
+	- deben cumplir con ciertos plazos
+		sistemas de tiempo real rigurosos
+		sistemas de tiempo real moderado
+	- ejemplo: sistema de control de procesos industriales, VxWorks, QNX
+SISTEMAS OPERATIVOS EMPOTRADOS (mp3)
+	- en ordenadores de bolsillo (pda)
+	- realizan funciones
+SISTEMAS OPERATIVOS DE TARJETA INTELIGENTE (credito, debito, teleferico)
+	- pagos electronicos
+	- tienen un interprete de la maquina virtual de java
+	
 
 
 

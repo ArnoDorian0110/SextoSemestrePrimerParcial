@@ -121,7 +121,25 @@ Router(config-if)#bandwidth 256
 para la tarea imprimir el sh ip ro eigrp
 cambiarle el nombre a los routers
 
+16/08/2019
+PARA EIGRP
+- lo que mas penaliza la metrica es el ancho de banda, el ancho de banda es el camino que va a tomar
+- la metrica mas baja = distancia factible 
+- sucesor = router al cual se entrega los paquetes para enviar a la red de destino, osea el router que le sigue (r1 > r2: r2 es el sucesor)
+- camino de backup (algoritmo dual de EIGRP) = camino que sigue en metrica
+- distancia calculada = 
+- condicion de factibilidad (para que exista un sucesor factible, puede tener mas de uno)= que la distancia notificada (calculo de la metrica de los routers conectados al router origen ) < distancia factible (candidato a ser sucesor factible)
+	distancia notificada (de los posibles routers sucesores) < distancia factible
+	la metrica se calcula a partir del segundo router 
+para ver el camino factible y los sucesores que podria tener
+R2#show ip eigrp topology  
+- retraso = es la medicion del tiempo para atravesar una ruta
+- si no hay ruta de reserva se vuelve  a recalcular por donde se pueden enviar los paquetes
+	primer valor = distancia factible
+	segundo valor = distancia notificada
+esto se cuenta  desde el siguiente router conectado 
 
+si no existe ruta de backup hay perdida de paquetes
 
 
 
