@@ -154,6 +154,12 @@ clasificado
 		utiliza: casos de uso (ovalo), actores y frontera (delimitante que lleva en la parte superioir el nombre del sistema), realiza los submodulos del sistema
 		tipo: 1. primario,secundario u opcional 2. esencial o real
 
+20/08/2019
+MODELO LOGICO: pensamientos e ideas
+METODOLOGIA XP: 
+	modelo iteratico y modelo por prototipos
+	roles de xp
+	marco de trabajo y proceso de desarrollo
 	
 	
 	

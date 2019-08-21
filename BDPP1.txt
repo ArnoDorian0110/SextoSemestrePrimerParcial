@@ -54,8 +54,42 @@ SELECT
      provincia.departamento = departamento.id_departamento
      WHERE
      departamento.nombre = 'LA PAZ';
-                            
-	
 
+19/08/2019
+PROPIEDADES ACID
+	atomicidad: todas se realizan o ninguna, la interfaz tendra filtros y toda la cosa, la falta de aislamiento pude ocasionar inconsistencia en la base de datos
+	durabilidad: al terminar el dia se debe poder recuperar todo, no permite transacciones que hagan que los datos se eliminen
+	aislamiento: no puede darse ninguna otra consulta mientras otra se esta ejecutando
+fragmentacion de bases de datos (tener dividida tu base de datos en varios dispositivos)
+ESTADOS DE UNA TRANSACCION
+FALLOS: una mala transaccion nos puede generar una perdida de informacion, 
+	un fallo sin perdida de informacion (cuando se cae el sistema), 
+	fallos con perdida (logicos del sistema, deadlock), cuando la administracion de la base de datoss genera un fallo de logica
+	caida del sistema: hasrdwaare software (SO, DBMS)
+	fallo de disco
+algoritmos de tratamiento de fallos (plan de contingencia, para evitar que el sistema caiga totlamente): permitir recuperacion ante fallos, 
+
+20/08/2019
+
+/* MOSTRAR UN LISTADO DE PRECIPITACIONES EN LOS QUE EL RANGO VAGA DE 120 A 200 */
+	
+SELECT
+	departamento.nombre AS 'Departamento',
+    precipitacion.fecha AS 'Fecha',
+    precipitacion.precipitacion as 'Precipitacion'
+FROM
+	departamento JOIN precipitacion
+    ON
+    departamento.id_departamento = precipitacion.departamento
+WHERE
+	precipitacion.id_precipitacion
+IN (
+    SELECT
+    precipitacion.precipitacion
+    FROM 
+    precipitacion
+    WHERE
+    precipitacion.precipitacion BETWEEN 120 AND 200
+    );
 
  

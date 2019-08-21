@@ -65,6 +65,28 @@ SISTEMAS OPERATIVOS EMPOTRADOS (mp3)
 SISTEMAS OPERATIVOS DE TARJETA INTELIGENTE (credito, debito, teleferico)
 	- pagos electronicos
 	- tienen un interprete de la maquina virtual de java
+
+21/08/2019
+FUNCIONAMIENTO DE UNA COMPUTADORA
+	- programa de arranque, de donde cargar el sistema operativo (BIOS O UEFI)
+	INTERRUPCIONES Y LLAMADAS AL SISTEMA
+		-se transfiere tareas urgentes, gracias al tiempo commpartido y la multiprogramacion, el hardware puede utilizar la interrupcion en cualquier instante
+		- interrupciones de software o de hardware 
+		- se denomina llamadas al sistema
+ESTRUCTURA DE ALMACENAMIENTO
+- la CPU 
+- tener almacenamiento secundario (en la imagen hasta la "memoria principal" son volatiles), volatil, es mas rapida
+- lo demas es almacenamiento secundario (disco electronico, disco magnetico, disco optico) no volatil, es mas lenta
+- backups de los bancos en cintas magneticas
+ARQUITECTURA DE UN SISTEMA INFORMTICO
+	- un solo procesadores
+	- varios procesadores
+	desde el Windows XP se podia manejar mas de un procesadores
+SISTEMAS MULTIPROCESADOR
+	ventajas: mayor rendimiento
+			economia de la escala
+	existen los: simetricos (todos son iguales SMP) y asimetricos (hace a un procesador maestro y a los demas esclavos) 
+
 	
 
 

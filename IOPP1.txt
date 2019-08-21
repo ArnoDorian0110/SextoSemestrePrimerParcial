@@ -6,5 +6,13 @@ variable aleatoria (la cual nace de experimentos no deterministico) es el vector
 	- continuo: fenomenos de espera, teoria de colas
 En un supermercado el tiempo de espera y atencion a cada cliente es diferente, esto es un ejemplo de la distribucion exponencial
 
+19/08/2019
+TEORIA DE JUEGOS
+	si no existe  equilibrio de Nash realizar por el metodo grafico
+	solo se puede el metodo grafico con matrices de 2xN y Nx2
 
+21/08/2019
+TEORIA DE JUEGOS
+EQUILIBRIO DE Nash
+metodo minimax 
 	
