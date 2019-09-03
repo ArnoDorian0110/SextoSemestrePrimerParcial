@@ -210,5 +210,33 @@ METODOLOGIA RUP (rational unified process) 1998 199
 		FASES
 	
 	
+DEFINICIONES
+ESTRATEGIA:
+Estrategia es un plan para dirigir un asunto. Una estrategia se compone de una serie de acciones planificadas que ayudan a tomar decisiones y a conseguir los mejores resultados posibles. La estrategia está orientada a alcanzar un objetivo siguiendo una pauta de actuación.
+Una estrategia comprende una serie de tácticas que son medidas más concretas para conseguir uno o varios objetivos.
+segun: https://www.significados.com/estrategia/
+VERSION ACTUAL DE UML:
+UML 3.X: evolución que se espera para UML 2.X.
+Un diagrama UML es una representación gráfica parcial (vista) de un modelo de un sistema en diseño, implementación o ya existente. El diagrama UML contiene elementos gráficos (símbolos) - nodos UML conectados con bordes (también conocidos como rutas o flujos) - que representan elementos en el modelo UML del sistema diseñado. El modelo UML del sistema también puede contener otra documentación, como casos de uso escritos como textos con plantilla.
+El tipo de diagrama está definido por los símbolos gráficos primarios que se muestran en el diagrama. Por ejemplo, un diagrama donde los símbolos primarios en el área de contenido son clases es un diagrama de clase . Un diagrama que muestra casos de uso y actores es el diagrama de casos de uso . Un diagrama de secuencia muestra la secuencia de intercambios de mensajes entre líneas de vida .
+La especificación UML no impide la mezcla de diferentes tipos de diagramas, por ejemplo, para combinar elementos estructurales y de comportamiento para mostrar una máquina de estados anidada dentro de un caso de uso. En consecuencia, los límites entre los diversos tipos de diagramas no se aplican estrictamente. Al mismo tiempo, algunas herramientas UML restringen el conjunto de elementos gráficos disponibles que podrían usarse al trabajar en un tipo específico de diagrama.
+COMO SE CONSTRUYE UNA CASA:
+1 Elección del terreno: No todos los terrenos son adecuados para la construcción, un topógrafo es habitualmente el encargado de decir si un terreno es apto para construir en él.
+2 Limpieza y explanación del terreno: En este paso se eliminan los árboles, malezas, rocas y otros obstáculos que puedan dificultar la construcción.
+3 Excavación: Una vez limpio el terreno, hay que excavar el agujero donde van a ir los cimientos. Si es necesario, se dejarán espacio para sótano, garaje y demás.
+4 Cimentación: Los cimientos son la parte del edificio que queda enterrada y sostiene toda la construcción. Hay varios tipos de cimientos y la elección de uno u otro depende del tipo de suelo y del clima. Los cimentos se nivelan para que la casa quede recta.
+5 Fundición: La fundación es la pared sobre la que descansa el primer piso. A las paredes de los cimientos se le aplica un material de impermeabilización para reducir al mínimo la acumulación de agua.
+6 Esqueleto de la casa: Se construyen los suelos, las paredes y los techos. Lo que se conoce como la cáscara de la casa. Se instalan también las puertas y ventanas exteriores.
+7 Plomería completa, eléctrica y de climatización: Una vez que la cascara está acabada, los contratistas eléctricos y de fontanería empiezan a introducir los tubos y cables a través de las paredes interiores, techos y suelos. Se instalan las lneas de alcantarillado y rejillas de ventilación, así como las líneas de suministro de agua. Las bañeras y unidades de ducha de una sola pieza se ponen en marcha en este momento.
+8 Instalación del aislamiento: El aislamiento hace de la casa un lugar cómodo para vivir ya que crea un clima interior más agradable. La mayoría de las casas están aisladas en todas las paredes exteriores, así como el ático y las plantas que se encuentran por encima de los sótanos.
+9 Acabados: Se llevan a cabo los acabados interiores y exteriores. Por ejemplo, se instalan Puertas interiores, zócalos, revestimientos de puertas, marcos de las ventanas, molduras, balaustras escaleras y otros elementos decorativos.
+10 Final de obra: Todos los implicados en la construcción se reúnen para comprobar que la casa está en perfectas condiciones y cumple con todas las normativas.
+Aunque los pasos a seguir para construir una casa se cuentan rápido, en la práctica el proceso dura bastante más.
+CLASE DE VEHICULOS:
+	Vehiculo 
+	Tipo de motor
+	Tipo de Gasolina
+	Capacidad de pasajeros
+	
 	
 	
