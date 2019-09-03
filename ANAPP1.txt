@@ -161,5 +161,54 @@ METODOLOGIA XP:
 	roles de xp
 	marco de trabajo y proceso de desarrollo
 	
+ANALISIS 
+METODOLOGIA RUP (rational unified process) 1998 199
+	que define quien? como ? cuando? software de alta calidad y que cumpla con los requerimientos y presupuesto establecions
+	creadores: Bopch, Jacobson, Rumbao 
+	casos de uso: forma de graficcas del sistema (actores y  casos de uso)
+	trabaja con uml 
+	Notacion, cuatro aspectos: 
+		- rol
+		- actividad
+		- artefacto
+		- flujos de trabajo (que es lo que va a realizar un rol)
+	Caracteristicas: Iteraciones, requisitos, control de cambios 
+	se basa en modelo incremental, iterativo
+	principios: proceso iterativo, centrado en la arquitectura y basado en los casos de uso 
+		- adaptar el proceso (constante  charla con el cliente)
+		- equilibrar prioridades (necesidades por igual, ya sea de cliente o del equipo)
+		- demostrar valores iterativamente (mostrar lo avanzado)
+		- colaboracion entre equipos (cada quien da su aporte)
+		- enfocarse en la calidad (con las iteraciones viene el control de calidad)
+		- elevar el nivel de abstraccion (uso de frameworks o componentes)
+	fases:
+		- inicio (plan de negocios, hablar con el cliente, artefactos de la fase, diagramas de uso,requisitos)
+		- elaboracion (ampliar los casos de uso)
+		- desarrollo (objetivo por iteraciones, darse fechas, maneja artefactos=documentos)
+		- transicion (cuando se entrega funcionando el proyecto al cliente) (pruebas finales de aceptacion, puesta en produccion y estabilizavion)
+	ciclo de vida:
+	wireframes : diseño desarrolado en papel
+	mockups : programa balsami, UPLABS  
+	participantes:
+		- jefe de proyecto
+		- analistas de sistemas
+			- programador
+			- ingeniero de software: analiza los  requisitos
+				tiene:
+				- asesor legar
+				- asesor tecnico
+	
+	FASES DEL MODELO CASCADA
+	ROLES
+	ORIENTADO A OBJETOS
+	5 ROLES DEL PARADIGMA ORIENTADO A OBJETOS (DESAFIO)
+	NOTACION UML INTRODUCCION 
+	METODOLOGIA XP
+	METODOLOGIA RUP
+		AUTORES
+		PROCESO DE DESARROLLO
+		FASES
+	
+	
 	
 	
